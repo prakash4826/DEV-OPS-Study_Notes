@@ -1,0 +1,86 @@
+*****docker command list***********
+
+sudo docker run hello-world //verfiy docker installation
+sudo docker build -t python-test  // create a docker image
+sudo docker run python-test   // run docker container
+sudo systemctl staus docker  // status of docker
+sudo systemctl enable docker --now  // enabling docker services
+
+
+
+
+docker --version  // check the version of docker
+vi dockerfile
+dockerimage ls
+dockernetwork ls // network list
+docker service ls // list services
+docker volume ls // list volume
+docker image // list images
+
+Run commands
+docker run image_name
+docker run --name conatainername imagename
+
+docker pull 
+docker pull image1
+
+docker push imageid // dockerpush
+docker build -g image_name:tag
+
+docker ps  // list of running container
+
+docker stop
+docker stop containerid
+
+docker stop container1 container2 container3 // stop multipl container
+
+docker start
+docker start containerid
+
+docker restart containderid
+docker inspect containerid
+docker commit containerid new_image_name:tag
+
+docker cp ./file1 CONTAINER:/work   //local file into container
+docker cp CONTAINER:/var/logs/ /tmp/app_logs  //container to local path
+
+docker remove
+docker rm containerid
+
+docker image delete
+docker rmi imageid
+
+
+docker exec containerid //runs commands inside a running container
+
+docker run -d -p 9090:9090 ubuntu  // docker port mapping
+
+docker volume create volume1  //creat docker volume
+docker volume prune   // to remove a volume
+docker volume inspect voume1 // inspect volume
+docker volume rm voume1
+
+npm init // intialize node project
+
+
+*****docker swarm commanline commands************
+
+docker swarm init –advertise-addr 192.168.99.121 //This command is used to initialize the swarm.      
+
+docker swarm join –token swmtkn -1 3pu6hszjas19xyp7ghgosyx9 
+docker node ls
+//this node joined a swarm as a manager
+//you can join a node to a swarm. The node joins as a manager node or worker node based on 
+the token you pass with the –token flag.
+
+docker service create --name redis --secret secret.json redis:3.0.64cdgfyky7ozwh3htjfw0d12qv
+
+
+
+
+
+
+
+
+
+

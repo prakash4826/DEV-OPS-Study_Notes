@@ -1,0 +1,53 @@
+1. definition of docker
+2. why it is so popular
+3. docker architecture
+4. what is docker file
+5. docker container
+6. docker life cycle (3 important part)
+7. docker container
+8. docker commands
+9. docker enginer and it is type
+10. why to use docker?
+11. Docker in AWS
+12. difference between docker container v/s VM
+13. docker security
+14. Docker hub
+15. docker logs
+16. docker image
+17. advantages of docker & disadvantages
+18. docker image
+
+19 docker file commands - pending p24
+20 docker file commands with syntax P24
+21 Create a sample docker file example1 and example 2 p32
+22 dockerfile copy do
+23 what is docker file and docker compose
+24  docker storage- docker voluem & bind mounts
+25 bridge network driver
+26 type of docker network
+27 steps to creat custom bridge network
+28 network bridge in docker
+29 IP range of docker bridge network
+30 types of network in docker
+31 docker network talk to each other
+32 dockerize nodejs application
+33 Explanation of docker file
+34 install linux package inside docker container using docker file
+35 docker swarm p64
+36 dockerswarm init
+37 docker swarm architecture
+38 feature of docker swarm
+39 benefit of docker swarm
+40 mode of docker swarm
+41 backup, restore or migrate data volumes
+42 remove volume
+43 view valnerability report
+44 
+
+
+
+
+
+
+
+
